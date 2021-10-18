@@ -30,7 +30,7 @@
         android:inputType="number"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/valor1"/>
+        app:layout_constraintTop_toBottomOf="@+id/valor1" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -53,6 +53,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/radiobtn_restar"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_multiplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_multiplicar"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_dividir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_dividir"
             android:textSize="20sp" />
     </RadioGroup>
 

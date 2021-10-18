@@ -6,4 +6,6 @@
     <string name="radiobtn_restar">Restar</string>
     <string name="txt_resultado">Resultado</string>
     <string name="btn_evaluar">Calcular</string>
+    <string name="rb_multiplicar">Multiplicar</string>
+    <string name="rb_dividir">Dividir</string>
 </resources>
